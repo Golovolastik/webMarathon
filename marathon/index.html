@@ -8,9 +8,10 @@
 <body>
 <header class="page-header">
     <!--img src="img/header.jpg" width="1416.98" height="715"-->
+    <div class="wide-container">
     <a class="logo">
         <img src="icon/logo.png" width="26" height="25" alt="Логотип компании - изображение торшера">
-        <p>scandi</p>
+        scandi
     </a>
     <nav>
         <ul class="nav-list">
@@ -23,6 +24,7 @@
         </ul>
     </nav>
     <a href=tel:+79818574624 class="phone">+7 (981) 857-46-24</a>
+    </div>
 </header>
 <main>
     <section class="promo">
@@ -46,36 +48,40 @@
             « Да! Это именно то, что действительно достойно моего дома!»
         </p>
     </article>
+    <section class="pros">
     <ul class="pros-list">
-        <li class="pros-list-item">5 лет опыта</li>
-        <li class="pros-list-item">100 проектов</li>
-        <li class="pros-list-item">10 наград</li>
+        <li class="pros-list-item"><span class="pros-list-number">5</span> лет опыта</li>
+        <li class="pros-list-item"><span class="pros-list-number">100</span> проектов</li>
+        <li class="pros-list-item"><span class="pros-list-number">10</span> наград</li>
     </ul>
+    </section>
     <section id="portfolio" class="portfolio">
         <h2 class="portfolio-header">
             Наши работы
         </h2>
-        <div>
-            <h3>
+        <div class="portfolio-block">
+            <h3 class="portfolio-header-2">
                 Квартира-студия
                 30 кв.м.
             </h3>
-            <p>
+            <p class="portfolio-description">
                 В квартире были светлые стены и тёплые
                 цвета. Мы сконцентрировались
                 на отсылках к природе и сделали ребятам
                 уютный интерьер, отсылающий к виллам
                 островов Бали.
             </p>
-            <img src="img/kitchen.jpg" width="692" height="451" alt="Современная кухня">
-            <img src="img/living-room.jpg" width="692" height="451" alt="Уютный уголок для отдыха">
-            <img src="img/bathroom.jpg" width="488" height="451" alt="Ванная комната">
-            <p>Смотреть ещё</p>
-            <a href=""><img src="icon/arrow.svg"></a>
+            <img src="img/kitchen.jpg" class="portfolio-image" width="692" height="451" alt="Современная кухня">
+            <img src="img/living-room.jpg" class="portfolio-image" width="692" height="451" alt="Уютный уголок для отдыха">
+            <img src="img/bathroom.jpg" class="portfolio-image" width="488" height="451" alt="Ванная комната">
+            <a href="" class="portfolio-link">
+                <p>Смотреть ещё</p>
+                <img src="icon/arrow.svg">
+            </a>
         </div>
     </section>
-    <section id="team">
-        <h2>Команда</h2>
+    <section id="team" class="team">
+        <h2 class="team-header">Команда</h2>
         <ul>
             <li>
                 <img src="img/girl-1.jpg" width="320" height="249" alt="Главный дизайнер Маша">

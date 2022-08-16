@@ -24,6 +24,17 @@ body {
     background: #E5E5E5;
 }
 
+a {
+    text-decoration: none;
+}
+
+.logo {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #533738;
+    text-transform: uppercase;
+}
 .nav-link {
     font-family: 'Montserrat';
     font-style: normal;
@@ -72,6 +83,72 @@ body {
     color: #533738;
 }
 .about-header {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.pros {
+    background: #8D7370;
+}
+
+.pros-list-number {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.pros-list-item {
+    ont-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.portfolio {
+
+}
+
+.portfolio-header {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #533738;
+}
+
+.portfolio-header-2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.portfolio-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: rgba(100, 72, 69, 0.8);
+}
+
+.portfolio-link p {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #533738;
+}
+
+.team {
+    background: #E2C4BA;
+    color: #533738;
+}
+
+.team-header {
     font-weight: 400;
     font-size: 40px;
     line-height: 50px;
