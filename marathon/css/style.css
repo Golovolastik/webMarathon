@@ -14,7 +14,66 @@
     font-display: swap;
 }
 
+header a{
+    color: #533738;
+}
 body {
     font-family: 'Montserrat', serif;
-    color: mediumaquamarine;
+    text-decoration: none;
+    color: #533738;
+    background: #E5E5E5;
+}
+
+.nav-link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.phone {
+    ont-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+.promo {
+    background: url("/img/background.png");
+    font-weight: 400;
+}
+
+.main-heading {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+}
+
+.promo-description {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.button {
+    background: #CC8B86;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.promo-button {
+    color: #533738;
+}
+
+.about{
+    color: #533738;
+}
+.about-header {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
 }
