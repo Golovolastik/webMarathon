@@ -17,6 +17,7 @@
 header a{
     color: #533738;
 }
+
 body {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
@@ -73,6 +74,7 @@ a {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+    color: #533738;
 }
 
 .promo-button {
@@ -136,14 +138,15 @@ a {
     background: rgba(100, 72, 69, 0.8);
 }
 
-.portfolio-link p {
+.portfolio-link {
+    text-decoration: none;
     font-weight: 500;
     font-size: 30px;
     line-height: 37px;
     color: #533738;
 }
 
-.team {
+.team-work-block {
     background: #E2C4BA;
     color: #533738;
 }
@@ -153,4 +156,93 @@ a {
     font-size: 40px;
     line-height: 50px;
     text-transform: uppercase;
+}
+
+.team-members {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+}
+
+.working-header {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #533738;
+
+}
+
+.working-process-list {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #533738;
+
+}
+
+.feedback-header {
+    ont-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #533738;
+
+}
+
+.feedback-text {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+}
+
+.feedback-user {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+    text-transform: uppercase;
+}
+
+.contact {
+    background: #8D7370;
+}
+
+.contact-header {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.contact-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.form label{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #F6EDE9;
+}
+
+footer {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+
+}
+
+footer a{
+    color: #533738;
 }
